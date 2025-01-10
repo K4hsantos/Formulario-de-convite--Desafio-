@@ -7,16 +7,16 @@
 :root {
 
     --font-family-1: 'Leckerli One', sans-serif;
-    --logo: 600 2.5rem/120% var(--font-family-1);
+    --logo: 500 2.5rem/120% var(--font-family-1);
 
     --font-family-2: 'baloo 2', sans-serif;
     --Heading-Md: 700 1.75rem/120% var(--font-family-2);
     --Heading-sm: 700 1.125rem/120% var(--font-family-2);
 
-    --font-family-3: 'open sans', sans-serif;
-    --body-Md:600 1rem/120%  var(--font-family-3);
-    --body-Sm:600 .875rem/120%  var(--font-family-3);
-    --body-Xs:600 .75rem/120%  var(--font-family-3);
+    --font-family-3: 'Open-Sans', sans-serif;
+    --body-Md:400 1rem/120%  var(--font-family-3);
+    --body-Sm:400 .875rem/120%  var(--font-family-3);
+    --body-Xs:400 .75rem/120%  var(--font-family-3);
 
 
     /* Brand */
@@ -55,5 +55,6 @@
 }
 
 body {
+    background-color: var(--shape-background);
     overflow: hidden;
 }
