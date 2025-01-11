@@ -18,7 +18,7 @@
     <title>Festivite</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
-    
+
 
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
 
@@ -41,8 +41,77 @@
             </div>  
         </aside>
 
-        <main class="main-container">
-            ola
+        <main>
+            <div class="main-container">
+                <h2>Crie seu convite</h2>
+
+                <form>
+                    <fieldset>
+                        <legend>
+                            <img src="./assets/icons/calendar.svg" alt="">
+                            Sobre o evento
+                        </legend>
+
+                        <div class="input-wrapper">
+                            <label for="tittle">Título</label>
+                            <input type="text" name="tittle" id="tittle"
+                            placeholder="Nome do evento">
+                        </div>
+
+
+                        <div class="flex">
+
+                            <div class="input-wrapper flex-2">
+                            <label for="date">inicio</label>
+                            <input type="datetime-local" name="date" id="start">
+                            </div>
+
+                            <div class="input-wrapper flex-2">
+                            <label for="date">Fim</label>
+                            <input type="datetime-local" name="date" id="end">
+                            </div>
+
+                        </div>
+
+                        <!-- <div class="flex"> -->
+
+                            <div class="radio-wrapper">
+                                <label>Tipo</label>
+
+                                <div class="radio-inner">
+                                    <img src="./assets/icons/building-2.svg" alt="">
+                                    <input type="radio" name="type-event"
+                                    value="in-person" id="in-person">
+                                    <label for="in-person">Presencial</label>
+                                </div>
+
+                                <div class="radio-inner">
+                                    <img src="./assets/icons/video.svg" alt="">
+                                    <input type="radio" name="type-event"
+                                    value="online" id="online">
+                                    <label for="online">Online</label>
+                                </div>
+
+                            </div>
+
+                        <!-- </div> -->
+
+
+                        <div class="input-wrapper">
+                            <label for="local">Local</label>
+                            <input type="text" name="local" id="local">
+                        </div>
+
+
+                        <div class="texarea-wrapper">
+                            <label for="description">Descrição</label>
+                            <textarea name="description" id="description"></textarea>
+                        </div>
+                    </fieldset>
+
+                </form>
+
+            </div>
         </main>
     </div> 
 </body>

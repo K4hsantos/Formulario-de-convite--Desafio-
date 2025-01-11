@@ -1,0 +1,33 @@
+h2 {
+    font: var(--Heading-Md);
+    color: var(--text-heading);
+
+    margin-bottom: 2.5rem;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+
+    font: var(--Heading-sm);
+    color: var(--text-heading);
+}
+
+.texarea-wrapper {
+    display: grid;
+    margin-top: 1.5rem;
+    
+    & textarea {
+        max-width: 35rem;
+        height: 3rem;
+        border-radius: .75rem;
+
+        margin-top: .75rem;
+    }
+
+}

@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 :root {
@@ -9,7 +9,7 @@
     --font-family-1: 'Leckerli One', sans-serif;
     --logo: 500 2.5rem/120% var(--font-family-1);
 
-    --font-family-2: 'baloo 2', sans-serif;
+    --font-family-2: 'Baloo 2', sans-serif;
     --Heading-Md: 700 1.75rem/120% var(--font-family-2);
     --Heading-sm: 700 1.125rem/120% var(--font-family-2);
 
@@ -57,4 +57,18 @@
 body {
     background-color: var(--shape-background);
     overflow: hidden;
+}
+
+
+.flex {
+    display:flex;
+    gap: 1rem;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
 }

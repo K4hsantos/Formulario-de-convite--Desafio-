@@ -1,0 +1,15 @@
+.input-wrapper{
+    margin-top: 1.5rem;
+    display: grid;
+    font: var(--body-Xs);
+
+ & input {
+    margin-top: 1.5rem;
+    max-width: 35rem;
+    height: 3rem;
+
+    border-radius: .75rem;
+
+}
+
+}
