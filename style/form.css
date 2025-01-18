@@ -16,18 +16,33 @@ legend {
 
     font: var(--Heading-sm);
     color: var(--text-heading);
+    margin-bottom: .56rem;
 }
 
 .texarea-wrapper {
-    display: grid;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+
     
     & textarea {
-        max-width: 35rem;
-        height: 3rem;
-        border-radius: .75rem;
+        padding: 1rem;
 
         margin-top: .75rem;
+        max-width: 35rem;
+        height: 3rem;
+        border-color: var(--input-stroke);
+        border-radius: .75rem;
+        width: 35rem;
+        height: 8.5rem;
+        background-color: var(--input-base);
+
+        color: white;
+        
+        &::placeholder {
+            font: var(--body-Md);
+            color: var(--input-placeholder);
+        }
+        
     }
 
 }
+

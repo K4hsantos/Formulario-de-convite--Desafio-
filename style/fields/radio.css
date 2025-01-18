@@ -1,0 +1,65 @@
+.radio-container {
+    margin-top: 1rem;
+}
+
+.radio-wrapper {
+    border: 1px solid;
+    margin-top: .75rem;
+    border: 1px solid var(--input-stroke);
+
+
+    max-width: 17rem;
+    height: 3rem;
+    background-color: var(--input-base);
+    border-radius: .5rem;
+
+    svg {
+        position: relative;
+        top: 7px;
+        width: 1rem;
+    }
+
+}
+
+.radio-inner {
+    display: flex;
+    gap: .37rem;
+    margin-left: 1.43rem;
+
+    
+    
+}
+
+.radio-box {
+
+    
+    label {
+        position: relative;
+        bottom: 2px;
+    }
+    
+    &:has(:checked) {
+        background-color: var(--input-stroke);
+        margin: .25rem;
+        border-radius: .25rem;
+
+        .radio-inner {
+            position: relative;
+            bottom: 4px;
+            font-weight: 700;
+        }
+
+        svg path {
+            stroke: var(--brand-mid);
+        }
+    }
+
+}
+
+
+input[type="radio"] {
+    
+    opacity: 0;
+
+}
+

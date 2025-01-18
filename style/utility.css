@@ -1,0 +1,41 @@
+.flex {
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.radio-flex {
+    display: flex;
+    justify-content: center;
+    gap: .25rem;
+}
+
+
+input:focus,
+textarea:focus {
+    outline: 1px solid var(--brand-light);
+}
+
+
+small {
+    position: relative;
+    bottom: 4px;
+    color: var(--danger);
+    max-width: 1rem;
+}
+
+.error {
+    img {
+        margin-top: .5rem;
+        width: 1rem;
+        color: var(--danger);
+    }
+}
