@@ -26,13 +26,10 @@
     gap: .37rem;
     margin-left: 1.43rem;
 
-    
-    
 }
 
-.radio-box {
+.radio-box{
 
-    
     label {
         position: relative;
         bottom: 2px;
@@ -57,9 +54,131 @@
 }
 
 
-input[type="radio"] {
-    
-    opacity: 0;
 
+
+.radio-color {
+
+    .radio-flex {
+        background-color: var(--shape-button); 
+        border-radius: 50%;
+
+        
+  
+          &:hover, &:focus-within {
+            inset: 0;
+            border: 1px solid var(--input-stroke);
+            background-color: var(--input-stroke);
+        }
+        
+        &:has(:checked) {
+            outline: .125rem solid var(--brand-light);
+        }
+    }
+    
 }
+
+
+.radio-flex {
+    position: relative;
+}
+
+.radio-options{
+    margin-top: 1rem;
+    
+     .radio-light {
+        background-color: var(--brand-light);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-navy {
+        background-color: var(--navy);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-purple {
+        background-color: var(--purple);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-fuschia {
+        background-color: var(--fuschia);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-pink {
+        background-color: var(--pink);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-danger {
+        background-color: var(--danger);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-orange {
+        background-color: var(--orange);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-yellow {
+        background-color: var(--yellow);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-lime {
+        background-color: var(--lime);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-green {
+        background-color: var(--green);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+
+    .radio-cyan {
+        background-color: var(--cyan);
+        margin: .375rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+    }
+}
+
+.radio-flex input[type="radio"] {
+    position: absolute; 
+    inset: 0;
+    opacity: 0; 
+    cursor: pointer; 
+}
+
 

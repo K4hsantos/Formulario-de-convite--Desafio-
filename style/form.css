@@ -10,13 +10,22 @@ fieldset {
 }
 
 legend {
+
     display: flex;
     align-items: center;
     gap: .75rem;
-
+    
     font: var(--Heading-sm);
     color: var(--text-heading);
     margin-bottom: .56rem;
+
+    img{
+        width: 1.5rem;
+    }
+}
+
+legend + .radio-color {
+    margin-top: 1.5rem;
 }
 
 .texarea-wrapper {
@@ -27,6 +36,7 @@ legend {
         padding: 1rem;
 
         margin-top: .75rem;
+        margin-bottom: 3rem;
         max-width: 35rem;
         height: 3rem;
         border-color: var(--input-stroke);
