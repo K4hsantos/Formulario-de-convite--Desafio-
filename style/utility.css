@@ -50,3 +50,7 @@ small {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
+.theme-style {
+    margin-top: 1.75rem;
+}
