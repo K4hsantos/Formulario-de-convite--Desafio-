@@ -17,7 +17,8 @@
             display: none;
         }
         
-    border: 1px solid var(--input-stroke);
+    border: 2px solid transparent;
+    outline: 1px solid var(--input-stroke);
     max-width: 35rem;
     height: 3rem;
     background-color: var(--input-base);

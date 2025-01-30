@@ -1,7 +1,17 @@
 .theme-style{
+    width: 11rem;
     & input {
         all: unset;
     }
+
+    label {
+        margin-bottom: 3rem;
+    }
+        span {
+            position: relative;
+            top: 1rem;
+        }
+
 }
 
 .theme-style input[type="checkbox"] {
@@ -20,8 +30,7 @@
 
 .switch-toggle {
     
-    margin-top: 1.25rem;
-    width: 4rem;
+    max-width: 11.12rem;
 
     .slider {
         position: absolute;
@@ -58,7 +67,17 @@ input:checked[type="checkbox"] {
     position: absolute;
     margin: .25rem;
 
-
 }
 
+#clear:checked + label span {
+    display: none;
+}
+
+#clear:checked + label::after {
+    position: relative;
+    top: 1rem;
+    content: "Claro";
+    opacity: 1;
+    max-width: 1rem;
+}
 

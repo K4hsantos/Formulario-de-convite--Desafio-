@@ -278,17 +278,36 @@
 
                         </div>
 
+                        
                         <div class="flex">
-                        <div class="theme-style">
-                            <label for="Style">Estilo</label>
+    
+                            <div class="theme-style">
+                                <label for="Style">Estilo</label>
+                                
+                                <div class="switch-toggle flex">
+                                    <input type="checkbox" name="Style" id="clear">
+                                    <label for="clear"><span>Escuro</span></label>
+                                </div>
 
-                            
-                            <div class="switch-toggle">
-                                <input type="checkbox" name="Style" id="clear">
-                                <label class="flex" for="clear" class="switch">Escuro</label>
                             </div>
+                        
+                            
+                            <div class="droparea-wrapper">
+                                <label for="banner-image">Foto de capa</label>
 
-                        </div>
+                                <div class="dropzone">
+                                    <input type="file" name="banner-image" id="banner-image" 
+                                    accept="image/png, image/jpeg">
+
+                                    <div class="droparea-button">
+                                        <img src="./assets/icons/upload.svg" alt="">
+                                        <span>Selecionar</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
                         </div>
                     </fieldset>
                 </form>
